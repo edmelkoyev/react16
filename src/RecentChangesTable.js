@@ -3,7 +3,7 @@ import React from 'react';
 class RecentChangesTable extends React.Component {
     render() {
         return (
-            <table className = "table">
+            <table className = 'table'>
                 {this.props.children}
             </table>
         );
